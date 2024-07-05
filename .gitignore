@@ -1,1 +1,9 @@
 .env
+
+#git init
+#git add .
+#git commit -m "Inicializa la rama ecomerce desde cero"
+#git checkout -b ecomerce
+# git remote -v
+# git remote add origin https://github.com/OscarTired/Web.git
+# git pull origin ecomerce
