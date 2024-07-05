@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtuMedida-Calzado de Calidad</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="img/IconWeb.png">
+</head>
+<body>
+    <!-- Navegacion (NavBar) -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <a href="index.html" class="logo">
+                <img src="img/IconWeb.png" alt="Logo" style="height: 40px; vertical-align: middle; z-index: 1;" />
+                AtuMedida
+              </a>
+            <!-- Logo -->
+            <div class="logo-container">
+                <!-- MENU VERTICAL -->
+                <div class="sidebar">
+                    <div class="logo-details">
+                      <div class="logo_name" id="greeting"></div>
+                      <i class='bx bx-menu' id="btn"></i>
+                    </div>
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#" class="dropdown-toggle">
+                              <i class='bx bx-male-sign'></i>
+                              <span class="links_name">Hombres</span>
+                            </a>
+                            <ul class="submenu">
+                              <li><a href="hzapatos.html" class="menVertical">Zapatos</a></li>
+                              <li><a href="hzapatillas.html" class="menVertical">Zapatillas</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle">
+                              <i class='bx bx-female-sign'></i>
+                              <span class="links_name">Mujeres</span>
+                            </a>
+                            <ul class="submenu">
+                              <li><a href="tacones.html" class="menVertical">Tacones</a></li>
+                              <li><a href="mzapatillas.html" class="menVertical">Zapatillas</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle">
+                              <i class='bx bx-user'></i>
+                              <span class="links_name">Niños</span>
+                            </a>
+                            <ul class="submenu">
+                              <li><a href="ñzapatos.html" class="menVertical">Zapatos</a></li>
+                              <li><a href="ñzapatillas.html" class="menVertical">Zapatillas</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- MENU HORIZONTAL -->
+            <nav class="nav-menu">
+                <ul>
+                    <li class="nav-item">
+                        <a href="#" class="nav-title">Hombres</a>
+                        <ul class="dropdown">
+                            <li><a href="hzapatos.html">Zapatos</a></li>
+                            <li><a href="hzapatillas.html">Zapatillas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-title">Mujeres</a>
+                        <ul class="dropdown">
+                            <li><a href="tacones.html">Tacones</a></li>
+                            <li><a href="mzapatillas.html">Zapatillas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-title">Niños</a>
+                        <ul class="dropdown">
+                            <li><a href="ñzapatos.html">Zapatos</a></li>
+                            <li><a href="ñzapatillas.html">Zapatillas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-title">Iniciar Sesion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-title">Registrarse</a>
+                    </li>
+                </ul>
+            </nav>              
+            <!-- Icono Carrito -->
+            <i class='bx bx-shopping-bag' id="cart-icon" data-quantitiy="0"></i>
+            <!-- cart (compras) -->
+            <div class="cart">
+                <h2 class="cart-title">Tu carrito</h2>
+                <!-- Contenido -->
+                <div class="cart-content"></div>
+                <!-- Total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">S/0</div>
+                </div>
+                <!-- Boton Compra -->
+                <button class="Btn">
+                    Ir a Pagar
+                    <svg class="svgIcon" viewBox="0 0 576 512"><path d="M512 80c8.8 0 16 7.2 16 16v32H48V96c0-8.8 7.2-16 16-16H512zm16 144V416c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V224H528zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm56 304c-13.3 0-24 10.7-24 24s10.7 24 24 24h48c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm128 0c-13.3 0-24 10.7-24 24s10.7 24 24 24H360c13.3 0 24-10.7 24-24s-10.7-24-24-24H248z"></path></svg>
+                  </button>
+                <!-- Cerrar carrito -->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Productos -->
+    <section class="shop container">
+        <h2 class="section-title">Estilo a tus Pies</h2>
+        <!-- Contenido -->
+        <div class="shop-content">
+            <!-- Seccion 1 -->
+            <div class="product-box">
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7_FNULaYwGf_hbFonNHUCIqc0L7oaSjngzjg0tFyh5Nk4MZxBzNenbaMivssp2IQfB2bc_t8CnaqVxs6R-RfBpYe7jBKglH6IjGpzI6MhVTF67wrqTHetN23Qa2WqVFs_Nh_nf2sgMIZnEJGoxqX2TmlUvC04FXkPjrs8LwvpTEhKmPL5-pxRV-ksXNA/s320/product1.png"
+                    alt=""
+                    class="product-img">
+                <h2 class="product-title">SKATE HALF CAB BLACK</h2>    
+                <span class="price">S/200.89</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <select class="size-dropdown">
+                    <option value="" disabled selected style="display:none;">Talla</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                  </select>
+            </div>
+            <!-- Seccion 2 -->
+            <div class="product-box">
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKMaY4aTmrdBlBM7yCs2ev6sQI2eLnX_ApIkXWX_aN-Dj9BcwT7BJwO9m8utsKyjXsBRXO183djdqtulyiWEZiDLE0YafBvzGWk5rL_h3HN_8aT_7eZTVjTKJzXHF4JXgolzZfyCincSRD0RRLbe4ydCt14cbF-S3_DdmMuCZnFyR7rynntcP9jom0Etc/s320/product2.png"
+                    alt=""
+                    class="product-img">
+                <h2 class="product-title">SKATE HALF CAB GOLD</h2>
+                <span class="price">S/179.89</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <select class="size-dropdown">
+                    <option value="" disabled selected style="display:none;">Talla</option>
+                    <option value="40">40</option>
+                    <option value="41">40</option>
+                    <option value="42">42</option>
+                  </select>
+            </div>
+            <!-- Seccion 3 -->
+            <div class="product-box">
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkdns7ujokOuuXtaTwu0gS-HzYVKVHt9h_uKqNWOGDvJCNwKxe8Jkai2ZGThvJa4Hi6D7HApC0-PBjRzqgLbp90n7yfDZ6ucDkGJFbQlfi-MLnGcoMlGF6PUfzzpZRwHpt2CqmFWpSTSkhJSrO4gNaSLYTazLu3RLnUihJYGYSCMD0EvgRRDOJ0WILp1w/s320/product3.png"
+                    alt=""
+                    class="product-img">
+                <h2 class="product-title">Nox AT10 Rojo</h2>
+                <span class="price">S/155.50</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <select class="size-dropdown">
+                    <option value="" disabled selected style="display:none;">Talla</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                  </select>
+            </div>
+            <!-- Seccion 4 -->
+            <div class="product-box">
+                <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNPsA6qpRr8rMTFzSnFrV2h3DMWfPBUFLdFq6NJbSxXluQi1ffV5MLbwfLYnEQ4wOPkt2xSdeIHUIzIKC8wU51S8djjQnEkKabIReuh2lSdfSqwMLvMHR4XTSfVvQG2JlnB1uyQwVTrfGIQBJbVtKyIc3C6l9xxKZhukpDHTVt3LdxHKFR-EIK6kmZaWk/s320/product4.png"
+                    alt=""
+                    class="product-img">
+                <h2 class="product-title">Air Jordan Retro</h2>
+                <span class="price">S/225</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                <select class="size-dropdown">
+                    <option value="" disabled selected style="display:none;">Talla</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                  </select>
+            </div>
+        </div>
+    </section>
+    <!-- Link JS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const dropdownToggles = document.querySelectorAll(".dropdown-toggle");
+    
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener("click", () => {
+                    const submenu = toggle.nextElementSibling;
+                    submenu.classList.toggle("submenu");
+                });
+            });
+        });
+    </script>
+    
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
