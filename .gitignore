@@ -7,3 +7,4 @@
 #    git remote set-url origin https://github.com/OscarTired/Web.git
 
 #sincronizar: git pull origin main
+# git pull origin main --allow-unrelated-histories
