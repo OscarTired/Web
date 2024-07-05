@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styleLogin.css">
+    <title>Login | ECOMERCE AtuMedida</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Crea una Cuenta</h1>
+                <div class="social-icons">
+                    <a href="https://accounts.google.com" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="https://www.facebook.com/" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>o usa tu correo para registrarte</span>
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Correo">
+                <input type="password" placeholder="Contraseña">
+                <button>Ingresa</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Inicia Sesión</h1>
+                <div class="social-icons">
+                    <a href="https://accounts.google.com" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="https://www.facebook.com/" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>o utiliza tu correo electrónico</span>
+                <input type="email" placeholder="Correo">
+                <input type="password" placeholder="Contraseña">
+                <a href="#">Olvidaste tu contraseña?</a>
+                <button>Ingresar</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bienvenido de Nuevo!</h1>
+                    <p>Ingrese sus datos para utilizar todas las funciones</p>
+                    <button class="hidden" id="login">Ingresa</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hola, Amig@!</h1>
+                    <p>Registre sus datos para utilizar todas las funciones</p>
+                    <button class="hidden" id="register">Registrate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/scriptLogin.js"></script>
+</body>
+
+</html>
