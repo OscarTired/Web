@@ -2,4 +2,8 @@
 
 #git init
 #git add .
-#git push origin master --force
+#git push origin master --forcegit
+#actualizar la URL del remoto origin, puedes usar el siguiente comando:
+#    git remote set-url origin https://github.com/OscarTired/Web.git
+
+#sincronizar: git pull origin main
